@@ -12,6 +12,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem "haml-rails"
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -19,6 +21,8 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'pry-rails'
+  gem 'rubocop', require: false
+  gem 'rubocop-performance'
 end
 
 group :development do
