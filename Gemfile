@@ -14,6 +14,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem "haml-rails"
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem 'devise'
+gem 'rubocop', require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -21,8 +22,7 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'pry-rails'
-  gem 'rubocop', require: false
-  gem 'rubocop-performance'
+  gem 'awesome_print', '~> 1.8'
 end
 
 group :development do
