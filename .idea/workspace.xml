@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5be6986-7aba-40a9-8f80-4c8f5e1df7b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/overtime_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/overtime_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/admin_user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -37,7 +31,7 @@
           <entry key="erb" value="1" />
           <entry key="haml" value="2" />
           <entry key="md" value="1" />
-          <entry key="rb" value="11" />
+          <entry key="rb" value="14" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -46,7 +40,7 @@
           <entry key="Haml" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="RHTML" value="1" />
-          <entry key="Ruby" value="15" />
+          <entry key="Ruby" value="18" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -56,7 +50,7 @@
           <entry key="erb" value="3" />
           <entry key="haml" value="23" />
           <entry key="md" value="524" />
-          <entry key="rb" value="103" />
+          <entry key="rb" value="129" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
@@ -65,7 +59,7 @@
           <entry key="Haml" value="23" />
           <entry key="Markdown" value="524" />
           <entry key="RHTML" value="3" />
-          <entry key="Ruby" value="148" />
+          <entry key="Ruby" value="174" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
@@ -73,20 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/schema.rb">
+        <entry file="file://$PROJECT_DIR$/app/models/admin_user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="34">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -111,6 +96,7 @@
         <option value="$PROJECT_DIR$/.rubocop.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/app/models/admin_users.rb" />
       </list>
     </option>
   </component>
@@ -216,6 +202,17 @@
             <path>
               <item name="overtime_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="overtime_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="overtime_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="overtime_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="overtime_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="overtime_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="overtime_app" type="b2602c69:ProjectViewProjectNode" />
@@ -363,12 +360,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556556641209</updated>
-      <workItem from="1556556646393" duration="7479000" />
+      <workItem from="1556556646393" duration="7923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7479000" />
+    <option name="totallyTimeSpent" value="7923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
@@ -384,7 +381,7 @@
       <window_info anchor="bottom" id="Terminal" weight="0.45479706" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32933578" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32841328" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -497,6 +494,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -504,10 +508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/schema.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/admin_user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
