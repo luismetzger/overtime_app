@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5be6986-7aba-40a9-8f80-4c8f5e1df7b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/posts/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/posts/show.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/features/post_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/post_spec.rb" afterDir="false" />
     </list>
@@ -25,11 +22,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/post_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/post_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/features/static_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -38,16 +62,16 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -89,10 +113,10 @@
         <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.haml" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/spec/features/post_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/features/post_spec.rb" />
       </list>
     </option>
   </component>
@@ -169,6 +193,18 @@
               <item name="spec" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="overtime_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="overtime_app" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="overtime_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="overtime_app" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -198,41 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.navigate creation can be created from new form page: overtime_app">
-    <configuration name="Post Creation cannot be created without a date and rationale: overtime_app" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <module name="overtime_app" />
-      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/post_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Post Creation cannot be created without a date and rationale" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="--no-color" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="RSpec.navigate creation: overtime_app">
     <configuration name="navigate creation can be created from new form page: overtime_app" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="overtime_app" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
@@ -291,6 +293,40 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="navigate creation has a new form that can be reached" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="--no-color" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="navigate creation: overtime_app" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <module name="overtime_app" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/post_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="navigate creation" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="--no-color" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -469,19 +505,19 @@
       <item itemvalue="Rails.Development: overtime_app" />
       <item itemvalue="Rake.test: overtime_app" />
       <item itemvalue="Rake.spec: overtime_app" />
-      <item itemvalue="RSpec.Post Creation cannot be created without a date and rationale: overtime_app" />
       <item itemvalue="RSpec.navigate index can be reached sucessfully: overtime_app" />
       <item itemvalue="RSpec.navigate index has a title of Posts: overtime_app" />
       <item itemvalue="RSpec.navigate creation has a new form that can be reached: overtime_app" />
       <item itemvalue="RSpec.navigate creation can be created from new form page: overtime_app" />
+      <item itemvalue="RSpec.navigate creation: overtime_app" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.navigate creation: overtime_app" />
         <item itemvalue="RSpec.navigate creation can be created from new form page: overtime_app" />
         <item itemvalue="RSpec.navigate creation has a new form that can be reached: overtime_app" />
         <item itemvalue="RSpec.navigate index has a title of Posts: overtime_app" />
         <item itemvalue="RSpec.navigate index can be reached sucessfully: overtime_app" />
-        <item itemvalue="RSpec.Post Creation cannot be created without a date and rationale: overtime_app" />
       </list>
     </recent_temporary>
   </component>
@@ -497,26 +533,11 @@
       <option name="presentableId" value="Default" />
       <updated>1556556641209</updated>
       <workItem from="1556556646393" duration="8823000" />
-      <workItem from="1556575229289" duration="3942000" />
+      <workItem from="1556575229289" duration="4489000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="navigate_index_has_a_title_of_Posts__overtime_app - 2019.04.29 at 16h 41m 35s.xml">
-      <configuration name="navigate index has a title of Posts: overtime_app" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigate_index_has_a_title_of_Posts__overtime_app - 2019.04.29 at 16h 41m 51s.xml">
-      <configuration name="navigate index has a title of Posts: overtime_app" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigate_creation_has_a_new_form_that_can_be_reached__overtime_app - 2019.04.29 at 16h 52m 43s.xml">
-      <configuration name="navigate creation has a new form that can be reached: overtime_app" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigate_creation_has_a_new_form_that_can_be_reached__overtime_app - 2019.04.29 at 16h 54m 01s.xml">
-      <configuration name="navigate creation has a new form that can be reached: overtime_app" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigate_creation_can_be_created_from_new_form_page__overtime_app - 2019.04.29 at 16h 58m 57s.xml">
-      <configuration name="navigate creation can be created from new form page: overtime_app" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="navigate_creation_can_be_created_from_new_form_page__overtime_app - 2019.04.29 at 17h 04m 44s.xml">
       <configuration name="navigate creation can be created from new form page: overtime_app" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -532,20 +553,35 @@
     <history-entry file="navigate_creation_can_be_created_from_new_form_page__overtime_app - 2019.04.29 at 17h 13m 53s.xml">
       <configuration name="navigate creation can be created from new form page: overtime_app" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="navigate_creation_can_be_created_from_new_form_page__overtime_app - 2019.04.29 at 17h 16m 48s.xml">
+      <configuration name="navigate creation can be created from new form page: overtime_app" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigate_creation_can_be_created_from_new_form_page__overtime_app - 2019.04.29 at 17h 17m 10s.xml">
+      <configuration name="navigate creation can be created from new form page: overtime_app" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigate_creation_can_be_created_from_new_form_page__overtime_app - 2019.04.29 at 17h 18m 49s.xml">
+      <configuration name="navigate creation can be created from new form page: overtime_app" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigate_creation__overtime_app - 2019.04.29 at 17h 24m 42s.xml">
+      <configuration name="navigate creation: overtime_app" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigate_creation__overtime_app - 2019.04.29 at 17h 25m 14s.xml">
+      <configuration name="navigate creation: overtime_app" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12765000" />
+    <option name="totallyTimeSpent" value="13312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17465389" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17465389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32841328" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37327188" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37327188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -574,6 +610,7 @@
     <SUITE FILE_PATH="coverage/overtime_app@navigate_creation_has_a_new_form_that_can_be_reached__overtime_app.rcov" NAME="navigate creation has a new form that can be reached: overtime_app Coverage Results" MODIFIED="1556578437082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
     <SUITE FILE_PATH="coverage/overtime_app@Post_Creation_cannot_be_created_without_a_date_and_rationale__overtime_app.rcov" NAME="Post Creation cannot be created without a date and rationale: overtime_app Coverage Results" MODIFIED="1556577042245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
     <SUITE FILE_PATH="coverage/overtime_app@User__overtime_app.rcov" NAME="User: overtime_app Coverage Results" MODIFIED="1556575648413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
+    <SUITE FILE_PATH="coverage/overtime_app@navigate_creation__overtime_app.rcov" NAME="navigate creation: overtime_app Coverage Results" MODIFIED="1556580312027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
     <SUITE FILE_PATH="coverage/overtime_app@User_creation_cannot_create_user_without_a_first_name_and_last_name__overtime_app.rcov" NAME="User creation cannot create user without a first_name and last_name: overtime_app Coverage Results" MODIFIED="1556576207797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
   </component>
   <component name="editorHistoryManager">
@@ -685,20 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/post_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/post.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -710,13 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/static_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -734,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/post_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -748,17 +757,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/spec/helpers/posts_helper_spec.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/static_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/post_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/post_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
