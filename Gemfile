@@ -15,6 +15,10 @@ gem "haml-rails"
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem 'devise'
 gem 'rubocop', require: false
+gem 'bootstrap', '~> 4.0.0'
+gem 'sprockets-rails'
+gem 'jquery-rails'
+
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
