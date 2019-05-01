@@ -11,11 +11,5 @@
       %th{width: '15%'} last_name
 
   %tbody
-    - @posts.each do |post|
-      %tr
-        %td= post.id
-        %td= truncate(post.rationale)
-        %td= post.date
-        %td= post.user_id
-        %td= post.user.first_name
-        %td= post.user.last_name
+    = render @posts
+
