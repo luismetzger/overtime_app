@@ -1,2 +1,11 @@
-#content
-    %p= @post.inspect
+%table{:border => 1}
+  %tbody
+    %tr
+      %td id:
+      %td date:
+      %td rationale:
+
+      %tr
+        %td= @post.id
+        %td= @post.date
+        %td= @post.rationale
