@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5be6986-7aba-40a9-8f80-4c8f5e1df7b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/posts/_form.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/posts/edit.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/factories/posts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/factories/users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/overtime_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/overtime_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/posts/_post.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/new.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/new.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_nav.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_nav.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/controllers/posts_controller_spec.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/features/post_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/post_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/post_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/post_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -43,26 +29,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.haml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+                <state relative-caret-position="272">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="117" selection-start-line="7" selection-start-column="117" selection-end-line="7" selection-end-column="117" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="267">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                <state relative-caret-position="320">
+                  <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -92,8 +78,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/features/post_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
-                  <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+                <state relative-caret-position="481">
+                  <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -140,14 +126,14 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/posts/_post.html.haml" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/posts/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/posts/edit.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/features/post_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_nav.html.haml" />
+        <option value="$PROJECT_DIR$/spec/features/post_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/posts/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/posts/_post.html.haml" />
       </list>
     </option>
   </component>
@@ -274,8 +260,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.navigate new has a link from the homepage: overtime_app">
-    <configuration name="User: overtime_app" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.navigate delete: overtime_app">
+    <configuration name="navigate delete: overtime_app" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="overtime_app" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -295,12 +281,12 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/user_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/post_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="User" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="navigate delete" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="--no-color" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
@@ -545,19 +531,19 @@
       <item itemvalue="Rails.Development: overtime_app" />
       <item itemvalue="Rake.test: overtime_app" />
       <item itemvalue="Rake.spec: overtime_app" />
-      <item itemvalue="RSpec.User: overtime_app" />
       <item itemvalue="RSpec.navigate edit: overtime_app" />
       <item itemvalue="RSpec.navigate edit can be reached by clicking edit on the index page: overtime_app" />
       <item itemvalue="RSpec.navigate edit can be edited: overtime_app" />
       <item itemvalue="RSpec.navigate new has a link from the homepage: overtime_app" />
+      <item itemvalue="RSpec.navigate delete: overtime_app" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.navigate delete: overtime_app" />
         <item itemvalue="RSpec.navigate new has a link from the homepage: overtime_app" />
         <item itemvalue="RSpec.navigate edit can be edited: overtime_app" />
         <item itemvalue="RSpec.navigate edit can be reached by clicking edit on the index page: overtime_app" />
         <item itemvalue="RSpec.navigate edit: overtime_app" />
-        <item itemvalue="RSpec.User: overtime_app" />
       </list>
     </recent_temporary>
   </component>
@@ -575,14 +561,11 @@
       <workItem from="1556556646393" duration="8823000" />
       <workItem from="1556575229289" duration="19416000" />
       <workItem from="1556811327157" duration="16485000" />
-      <workItem from="1557167761753" duration="3681000" />
+      <workItem from="1557167761753" duration="4065000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="navigate_edit_can_be_reached_by_clicking_edit_on_the_index_page__overtime_app - 2019.05.06 at 15h 29m 51s.xml">
-      <configuration name="navigate edit can be reached by clicking edit on the index page: overtime_app" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="navigate_edit_can_be_edited__overtime_app - 2019.05.06 at 15h 32m 43s.xml">
       <configuration name="navigate edit can be edited: overtime_app" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -610,9 +593,12 @@
     <history-entry file="navigate_new_has_a_link_from_the_homepage__overtime_app - 2019.05.06 at 15h 55m 49s.xml">
       <configuration name="navigate new has a link from the homepage: overtime_app" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="navigate_delete__overtime_app - 2019.05.06 at 16h 12m 21s.xml">
+      <configuration name="navigate delete: overtime_app" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48405000" />
+    <option name="totallyTimeSpent" value="48789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
@@ -654,6 +640,7 @@
     <SUITE FILE_PATH="coverage/overtime_app@navigate__overtime_app.rcov" NAME="navigate: overtime_app Coverage Results" MODIFIED="1556732179868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
     <SUITE FILE_PATH="coverage/overtime_app@User__overtime_app.rcov" NAME="User: overtime_app Coverage Results" MODIFIED="1556732300959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
     <SUITE FILE_PATH="coverage/overtime_app@navigate_edit_can_be_reached_by_clicking_edit_on_the_index_page__overtime_app.rcov" NAME="navigate edit can be reached by clicking edit on the index page: overtime_app Coverage Results" MODIFIED="1557178188103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
+    <SUITE FILE_PATH="coverage/overtime_app@navigate_delete__overtime_app.rcov" NAME="navigate delete: overtime_app Coverage Results" MODIFIED="1557181084938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
     <SUITE FILE_PATH="coverage/overtime_app@navigate_creation__overtime_app.rcov" NAME="navigate creation: overtime_app Coverage Results" MODIFIED="1556669126649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
     <SUITE FILE_PATH="coverage/overtime_app@User_Custom_name_methods__overtime_app.rcov" NAME="User Custom name methods: overtime_app Coverage Results" MODIFIED="1556672688499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
     <SUITE FILE_PATH="coverage/overtime_app@navigate_index__overtime_app.rcov" NAME="navigate index: overtime_app Coverage Results" MODIFIED="1556669028859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="overtime_app" />
@@ -903,20 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -952,17 +925,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/post_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        <state relative-caret-position="481">
+          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="320">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="117" selection-start-line="7" selection-start-column="117" selection-end-line="7" selection-end-column="117" />
         </state>
       </provider>
     </entry>
