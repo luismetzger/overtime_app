@@ -27,6 +27,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'pry-rails'
   gem 'awesome_print', '~> 1.8'
+  gem 'factory_bot_rails'
 end
 
 group :development do

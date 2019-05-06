@@ -1,0 +1,18 @@
+= form_for @post do |f|
+  %table
+    %tr
+      %td
+        %label{:for => "date"}> Date
+      %td
+        = f.date_field :date
+    %tr
+      %td
+        %label{:for => "rationale"}> Rationale
+      %td
+        = f.text_area :rationale, size: "60x12"
+    %tr
+      %td{:colspan => "2"}
+        %hr/
+    %tr
+      %td{:colspan => "2"}
+        = f.submit "Save"
